@@ -8,6 +8,7 @@ body{
     color: #F9F9F9
 }
 
+/* Landing Page */
 .landing-page{
     background: linear-gradient(#D2AFFF99, #E6D7FF99), url("../images/Feli-landing-page.jpg");
   background-repeat: no-repeat;
@@ -28,34 +29,45 @@ body{
     background-color: #00000099;
   }
 
-  .polaroids {
-    margin: 0 auto;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .polaroid {
-    display: inline-block;
-    margin: 10px;
-    position: relative;
-    width: auto;
-  }
-  
-  .polaroid img {
-    border: 12px solid #fff;
-    border-bottom: 70px solid #fff;
-    -webkit-box-shadow: 3px 3px 3px #888;
-    -moz-box-shadow: 3px 3px 3px #888;
-    box-shadow: 3px 3px 3px #888;
-    height: auto;
-    max-width: 100%;
-  }
-  
-  .polaroid p {
-    color: #888;
-    font: 500 18px/22px Arial, sans-serif;
-    position: absolute;
-    bottom: 0;
-    text-align: center;
-    width: 100%;
-  }
+/* Stories Page */
+.polaroid a {
+  background: #ffffff;
+  display: inline-block;
+  margin: 75px 30px;
+  padding: 15px 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+  -moz-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+  -webkit-transition: all .20s linear;
+  -moz-transition: all .20s linear;
+  transition: all .20s linear;
+  z-index: 0;
+  position: relative;
+}
+
+.polaroid a:after {
+  color: #333;
+  font-size: 25px;
+  content: attr(title);
+  position: relative;
+  top: 15px;
+}
+
+.polaroid img {
+  display: block;
+  width: 250px;
+}
+
+.polaroid a:hover {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  transform: scale(1.2);
+  z-index: 10;
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+  -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+}
+
+/* Wishes Page */
