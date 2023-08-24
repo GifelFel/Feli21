@@ -1,6 +1,6 @@
 body{
     background-color: #f0e8fa;
-    color: #F9F9F9;
+    color: #020202;
 }
 
 .secondary-purple{
@@ -26,7 +26,7 @@ body{
     transform:translate(50%, -50%);
     border-radius: 25px;
     padding: 10px;
-    background-color: #00000099;
+    background-color: #ffffff99;
   }
 
 /* Stories Page */
@@ -71,3 +71,12 @@ body{
 }
 
 /* Wishes Page */
+
+
+
+/* Color Pallete
+Primary: #221B27
+Secondary: #32243C
+Tertiary: #3E274F
+Emphasize: #F5A4C5
+*/
