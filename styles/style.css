@@ -111,6 +111,13 @@ body{
 
 }
 
+.sticky-note-container ul li a:hover,ul li a:focus{
+  box-shadow:10px 10px 7px rgba(0,0,0,.7);
+  /* transform: scale(1.25); */
+  position:relative;
+  z-index:5;
+}
+
 .sticky-note-container ul li{
   margin:1em;
 }
@@ -143,27 +150,19 @@ body{
   top:-10px;
 }
 
-ul li a:hover,ul li a:focus{
-  box-shadow:10px 10px 7px rgba(0,0,0,.7);
-  transform: scale(1.25);
-  position:relative;
-  z-index:5;
-
-}
-
-.wishes-modal .modal-content{
+.wishes-modal .modal .modal-content{
   font-family: 'Reenie Beanie';
   background-color: #ffc;
 }
 
-.wishes-modal .modal-content:nth-child(even){
+.wishes-modal .modal:nth-child(even) .modal-content{
   background-color: #cfc;
 }
 
-.wishes-modal .modal-content:nth-child(3nj){
+.wishes-modal .modal:nth-child(3n) .modal-content{
   background-color: #ccf;
 }
 
-.wishes-modal .modal-content:nth-child(4n){
+.wishes-modal .modal:nth-child(4n) .modal-content{
   background-color: #ACEEF1;
 }
