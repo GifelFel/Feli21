@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     <script src="components/navbar.js" type="text/javascript" defer></script>
     <title>Our Wishes!</title>
@@ -13,7 +14,7 @@
     <navbar-component></navbar-component>
     <h1 class="text-center p-5">Our Wishes for you!</h1>
     <div class="row justify-content-center align-items-center g-2">
-        <div class="col-md-6">
+        <!-- <div class="col-md-6">
           <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">
             <div class="card mx-5">
                 <img src="images/Effel-1.jpg" class="card-img-top p-2" alt="Effel Image" style="border-radius: 3%;">
@@ -22,26 +23,60 @@
                 </div>
             </div>
           </a>
+        </div> -->
+        <div class="sticky-note-container">
+          <ul>
+            <li>
+              <a href="#" data-bs-toggle="modal" data-bs-target="#andreasModal">
+                <h2>Andreas</h2>
+              </a>
+            </li>
+            <li>
+              <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <h2>Title #2</h2>
+              </a>
+            </li>
+            <li>
+              <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <h2>Title #1</h2>
+              </a>
+            </li>
+            <li>
+              <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <h2>Title #1</h2>
+              </a>
+            </li>
+            <li>
+              <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <h2>Title #1</h2>
+              </a>
+            </li>
+          </ul>
         </div>
     </div>
 
     <!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog model-dialog-scrollable">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabel">Hello!</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          asdas
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+    <div class="wishes-modal">
+      <div class="modal fade" id="andreasModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered model-dialog-scrollable">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel" style="font-weight: bold;">Andreas</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              Happy birthday ci feli, ga nyangka bisa liat cici selama ini WKWKWKW. Dari kecil yang aku sering ISENGIN cici, ngatain cici kribo etc WKWKWKW. But, tbh, im so lucky to know u. Seneng bisa liat proses cici sejauh ini, keep it going ya ciii. Wish u lots of happiness and LUCKINESS juga WEHEHEHE. Gbu!!
+              <br />
+              <br />
+              Pesan: Semoga Kuliah di psikologi bisa menyembuhkan semua trauma dan sakit hati mu ya, you've been doing great for ur whole life. And im so proud of all the things that u did, to make u survive this suck life. Thanks for being kind, and make sure that everyone around u is doing ok.
+              <br />
+              <br />
+              Kesan: selama berteman sama ci feli itu banyak banget roller coaster nya sih WKWKWKA, dulu ci feli termasuk orang yang moody juga. Dimana kalau lagi moodnya bagus bakal seru, dan kalau lagi mood nya jelek bakal galak or even jutek. Tapi dibalik hal itu, ci feli juga care terhadap orang sekitarnya. APALAGI dulu pas pertama kali komsel WKWKWK, ga nyangka bakal bisa komsel disana juga jujur. Tapi ya memang takdir Tuhan ya WKWKWK.
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
   
 </body>
 </html>
