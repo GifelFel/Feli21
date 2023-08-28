@@ -153,6 +153,7 @@ body{
 .wishes-modal .modal .modal-content{
   font-family: 'Reenie Beanie';
   background-color: #ffc;
+  font-size: 20px;
 }
 
 .wishes-modal .modal:nth-child(even) .modal-content{
